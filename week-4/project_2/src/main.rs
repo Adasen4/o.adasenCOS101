@@ -29,7 +29,7 @@ fn main() {
         println!("aka 1.48 million naira");
     }
 
-    else if age<=29 {
+    else if age<=29 && worked>=10 {
         println!("Your annual incentive is N1,300,000");
         println!("aka 1.3 million naira");
     }
