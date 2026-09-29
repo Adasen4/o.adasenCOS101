@@ -1,25 +1,22 @@
 fn main() {
-    let a:i32 = 10;
-    let b:i32 = 20;
+    let num1 = 10;
+    let num2 = 2;
+    let mut result:i32;
 
-    println!("Value of A: {}",a);
-    println!("Value of B: {}",b);
+    result = num1 + num2;
+    println!("Sum: {}",result);
 
-    let mut res = a>b;
-    println!("A greater than B: {}",res);
+    result = num1 - num2;
+    println!("Difference: {}",result);
 
-    res = a<b;
-    println!("A lesser than B: {}",res);
+    result = num1 * num2;
+    println!("Product: {}",result);
 
-    res = a>=b;
-    println!("A greater than or equal to B: {}",res);
+    result = num1 / num2;
+    println!("Quotient: {}",result);
 
-    res = a<=b;
-    println!("A lesser than or equal to B: {}",res);
+    result = num1 % num2;
+    println!("Remainder: {}",result);
 
-    res = a==b;
-    println!("A is equal to B: {}",res);
+    
 
-    res = a!=b;
-    println!("A is not equal to B: {}",res);
-}
